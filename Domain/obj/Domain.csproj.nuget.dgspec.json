@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj": {}
+    "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj": {
+    "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Emmanuel.Egomson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Emmanuel.Egomson\\AppData\\Roaming\\NuGet\\NuGet.Config",

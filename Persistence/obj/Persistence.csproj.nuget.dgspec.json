@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Persistence\\Persistence.csproj": {}
+    "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj": {
+    "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Emmanuel.Egomson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Emmanuel.Egomson\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Persistence\\Persistence.csproj": {
+    "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectPath": "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Emmanuel.Egomson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Persistence\\obj\\",
+        "outputPath": "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Emmanuel.Egomson\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj"
+              "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\Emmanuel.Egomson\\Femmy\\Projects\\Dotnet Projects\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -97,6 +97,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
